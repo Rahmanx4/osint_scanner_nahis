@@ -31,13 +31,14 @@ Steps:
 1. Create a new file named .env in the root folder of the project.
 
 2. Add the following line inside the file:
+
 IPINFO_TOKEN=your_api_key_here
 
 Usage
 Run the tool:
-```bash
-Copy code
 python main.py
+
 Enter the domain to scan when prompted. Results will be saved automatically in the results/ folder.
+
 
 
