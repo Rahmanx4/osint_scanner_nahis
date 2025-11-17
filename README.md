@@ -1,4 +1,4 @@
-# NAHIS OSINT Scanner
+# OSINT Scanner
 
 NAHIS OSINT Scanner is a Python tool for performing OSINT (Open Source Intelligence) on websites. It collects information such as DNS records, WHOIS data, IP details, SSL certificates, subdomains, open ports, emails, and metadata.
 
@@ -37,4 +37,5 @@ python main.py
 Enter the domain to scan when prompted. Results will be saved automatically in the results/ folder.
 
 License
+
 This project is free to use, modify, and redistribute.
