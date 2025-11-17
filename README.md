@@ -35,8 +35,9 @@ IPINFO_TOKEN=your_api_key_here
 
 Usage
 Run the tool:
-'''bash
+```bash
 Copy code
 python main.py
 Enter the domain to scan when prompted. Results will be saved automatically in the results/ folder.
+
 
