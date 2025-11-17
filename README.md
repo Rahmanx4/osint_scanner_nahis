@@ -20,22 +20,25 @@ Install the Python dependencies:
 
 ```bash
 pip install -r requirements.txt
-Environment File
-Store sensitive tokens in a .env file:
 
-ini
-Copy code
+Environment File (.env)
+
+This tool uses an API token for the IP information lookup.
+You must create a .env file in the project directory.
+
+Steps:
+
+1. Create a new file named .env in the root folder of the project.
+
+2. Add the following line inside the file:
 IPINFO_TOKEN=your_api_key_here
-Do not commit .env to public repositories.
 
 Usage
 Run the tool:
-
 bash
 Copy code
 python main.py
 Enter the domain to scan when prompted. Results will be saved automatically in the results/ folder.
 
 License
-
 This project is free to use, modify, and redistribute.
